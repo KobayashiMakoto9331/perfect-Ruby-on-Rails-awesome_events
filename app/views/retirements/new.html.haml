@@ -1,0 +1,13 @@
+%h1.mt-3 退会の確認
+
+%p 退会した場合、ユーザーに関する全てのデータが削除されます。
+%p ただし以下の場合は退会できません。
+
+%ul
+  %li
+    公開中の未終了イベントがある
+  %li
+    未終了の参加イベントがある
+%hr
+
+=link_to "退会する", retirements_path, method: :post, class: "btn btn-danger", data: { confirm: "本当に退会しますか" }

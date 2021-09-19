@@ -1,0 +1,27 @@
+ ja:
+  activerecord:
+    models:
+      events: イベント
+      user: ユーザー
+      ticket: チケット
+    attributes:
+      event:
+        name: 名前
+        place: 場所
+        start_at: 開始時間
+        end_at: 終了時間
+        content: 内容
+        image: 画像
+      ticket:
+        comment: コメント
+      user:
+        name: 名前
+        email: メールアドレス
+        uid: ID
+        password: パスワード
+        password_confirmation: 確認用パスワード
+ja:
+  time:
+    formats:
+      default: "%Y/%m/%d %H:%M:%S"
+      short: "%m/%d %H:%M"
